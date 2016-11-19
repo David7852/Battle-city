@@ -43,11 +43,7 @@ public class StartGameScreen extends AbstractScreen
 	public OrthogonalTiledMapRenderer mapRenderer;
 	public General Zod;//,od; 
 	public long t,b,f;
-	boolean w=false;//w=true si juego termino
-
-	//public static ServerSocket Alfred;
-	//public static Socket Batman;
-	
+	boolean w=false;
 	public TiledMapTileLayer maplayer, tanklayer, bulletlayer;
 	
 	public StartGameScreen(MyGdxGame game/*,ServerSocket Alfred,Socket Batman*/)

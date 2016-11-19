@@ -74,29 +74,6 @@ public abstract class AbstractScreen implements Screen
         return atlas;
     }
 
-/*    protected Skin getSkin()
-    {
-        if( skin == null ) {
-            FileHandle skinFile = Gdx.files.internal( "skin/uiskin.json" );
-            skin = new Skin( skinFile );
-        }
-        return skin;
-    }*/
-
-  /*  protected Table getTable()
-    {
-        if( table == null ) {
-            table = new Table( getSkin() );
-            table.setFillParent( true );
-            if( Tyrian.DEV_MODE ) {
-                table.debug();
-            }
-            stage.addActor( table );
-        }
-        return table;
-    }*/
-
-    
         
     @Override public void render(float delta) 
     {
